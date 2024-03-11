@@ -38,7 +38,9 @@ To check if it is installed correctly just open a cmd and type: python --version
 
 2. Then you need to install Selenium by typing in the cmd: pip install selenium. In case that does not work try: py -m pip install selenium
 
-3. In my case I used VsCode as my text editor to run and test my python scripts. If using VsCode I suggest you add the Python(2024.2.1) and Code Runner(v0.12.1) inside the Extensions tab (I used the latest versions for both of them). 
+3. You need to install the chrome webdriver. In my case I used the 122.0.6261.111 and I downloaded from here: https://googlechromelabs.github.io/chrome-for-testing/ . Be sure to match the platform and the version of your Chrome driver; you can check it at by clicking the 3 dots in the top right corner of your Chrome browser, the Help - About Google Chrome.
+
+4. In my case I used VsCode as my text editor to run and test my python scripts. If using VsCode I suggest you add the Python(2024.2.1) and Code Runner(v0.12.1) inside the Extensions tab (I used the latest versions for both of them). 
 Then you can open the QAExercise_ioet folder which will contain it's 3 python scripts. You can test every script independently and easily with the help of Code Runner by using the top right play button and if you use the dropdown you will see the option "Run Python File".
 ![image](https://github.com/T0KK3N/QAExercise_ioet/assets/43867402/6afc0798-de3a-4e6b-aba7-699d182b86a2)
 
